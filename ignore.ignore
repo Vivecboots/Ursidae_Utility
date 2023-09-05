@@ -1,0 +1,67 @@
+Steps to Move Forward with the Decentralized File Storage System:
+1. File Upload Interface
+In your pages/index.tsx, design a file upload form. This will be the starting point for users wanting to store files on Filecoin.
+2. File Retrieval Interface
+Implement a mechanism (like an input field) for users to provide a file's public hash. This will be used to retrieve files from Filecoin.
+3. Backend Development
+You need to set up API routes in Next.js (under the pages/api directory) to handle:
+File uploads: Encrypt the file, store it on Filecoin, and return the necessary hashes.
+File retrievals: Accept the file's public hash, fetch and decrypt the file from Filecoin, and return the file to the frontend.
+4. Filecoin Integration
+Integrate with Filecoin within the API routes to handle the storage and retrieval of files.
+5. Oasis Integration for Privacy
+Within the API routes, before storing files to Filecoin, use Oasis for encryption. Similarly, decrypt files using Oasis when retrieving them.
+6. SOCKS5 Proxy Integration
+If you're concerned about maintaining the privacy of server-side operations, consider routing your server's traffic through a SOCKS5 proxy. This can be set up at the server level or integrated into your API logic.
+7. Test the System
+Before proceeding further, ensure the file upload and retrieval system works flawlessly. Test with different file types and sizes.
+8. Extend the Platform
+Once the basic file storage system is operational, think about extending the platform. Given the context of a news site where authors can receive donations:
+Integrate a donation mechanism using Ethereum smart contracts.
+Allow authors to have profiles, list their articles, and display donation stats.
+9. Refine the UI/UX
+Based on feedback and user testing, refine the user interface and experience. Add helpful tooltips, error messages, and feedback mechanisms.
+10. Deployment and Scaling
+Deploy the updated Next.js application. Consider scalability, especially if you anticipate a lot of users interacting with the system.
+11. Documentation
+Update the user documentation to guide users on how to use the platform, upload files, retrieve files, and make donations.
+
+
+
+
+Given our current goal is to create an article module that:
+
+Allows for the upload of an article.
+Encrypts and stores the article on Filecoin.
+Provides a method to retrieve the encrypted article.
+Offers additional identifiers for future integration.
+Flow:
+
+User Interaction:
+
+User connects their Ethereum wallet.
+User uploads an article file.
+The file gets split into two parts:
+Article metadata (title, snippet, etc.) - This will be encrypted but designed to be decryptable by the dApp for public display.
+Article main content.
+Backend Processing:
+
+Both parts are encrypted separately using a strong encryption method.
+Each encrypted segment is then stored on Filecoin.
+Two CIDs (Content Identifiers) from Filecoin are generated: one for the metadata and one for the main content.
+Output:
+
+The user receives a composite identifier that includes both CIDs and any other metadata.
+This composite identifier can be used to retrieve the full article, and the metadata CID can be used to fetch just the title and snippet for public display.
+Let's start by working on the backend processing:
+
+1. Encryption:
+You'll need a strong encryption method. A simple and popular choice is AES encryption.
+
+2. Filecoin Storage:
+Given the choice between Textile's Powergate and ChainSafe, considering end-to-end encryption and simplicity, ChainSafe seems a good fit. However, remember that ChainSafe Files is a conceptual library I mentioned for explanatory purposes. In reality, you would need to use libraries provided by ChainSafe or other Filecoin libraries to interact with the Filecoin network.
+
+3. Output Generation:
+After storing on Filecoin, you'll get CIDs which can be combined with other metadata to generate a composite identifier.
+
+Let's begin with the encryption process. Would you like to proceed with AES or have another preference in mind?
