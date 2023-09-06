@@ -1,0 +1,13 @@
+{
+  "name": "hardhat-project",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "@oasisprotocol/sapphire-contracts": "^0.2.4",
+    "@oasisprotocol/sapphire-hardhat": "^2.16.1",
+    "@openzeppelin/contracts": "^4.9.3",
+    "ts-node": "^10.9.1"
+  },
+  "dependencies": {
+    "web3.storage": "^4.5.5"
+  }
+}
