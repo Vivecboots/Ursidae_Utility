@@ -1,19 +1,19 @@
 import { ethers } from "hardhat";
 
 async function main() {
-  const [deployer] = await ethers.getSigners();
-
-  console.log("Deploying contracts with the account:", deployer.address);
-
+  // Fetch the contract factory
   const OasysStorageFactory = await ethers.getContractFactory("OasysStorage");
-  const oasysStorage = await OasysStorageFactory.deploy();
 
-  console.log("OasysStorage contract deployed to:", oasysStorage.address);
+  // Deploy the contract
+  const oasysStorage = await OasysStorageFactory.deploy();
+  await oasysStorage.deployed();
+
+  console.log("OasysStorage deployed to:", oasysStorage.address);
 }
 
 main()
   .then(() => process.exit(0))
   .catch((error) => {
-    console.error("Error occurred:", error);
+    console.error(error);
     process.exit(1);
   });
