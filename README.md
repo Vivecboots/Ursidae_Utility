@@ -1,6 +1,6 @@
 # Ursidae-Utility🐻
 
-![Ursidae-Utility Logo](https://cdn.discordapp.com/attachments/1058636802111570023/1149850967001546942/journeyman143_A_logo_of_a_bear_wearing_heaphones_and_smoking_7b673a54-7ce9-437d-9c49-a4b15a4e5742.png)
+![Ursidae-Utility Logo](https://cdn.discordapp.com/attachments/1058636802111570023/1149851541784768694/journeyman143_A_logo_of_a_bear_wearing_heaphones_and_smoking_pi_a3130727-8f3d-4de2-8348-425213358026.png)
 
 
 # Private Web3 Storage with (EVM) Sapphire Oasis Paratime Chain 🌐🔗
