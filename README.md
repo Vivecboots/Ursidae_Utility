@@ -3,7 +3,7 @@
 
 
 # Private Web3 Storage with (EVM) Sapphire Oasis Paratime Chain 🌐🔗
-This project provides a secure and efficient way to upload files to IPFS using Web3.Storage, while also integrating with the Sapphire Oasis EVM Chain for enhanced functionalities.
+This project provides a secure and efficient way to upload files to IPFS using Web3.Storage, while also integrating with the Sapphire Oasis EVM Chain for enhanced functionalities and increased security.
 
 ## Features 🌟
 
@@ -12,7 +12,7 @@ This project provides a secure and efficient way to upload files to IPFS using W
 - File Retrieval: Retrieve files from IPFS and decrypt them to access the original content.
 - Sapphire Oasis Integration: Leverage the Sapphire Oasis EVM Chain for added features.
 -User Authentication: Authenticate users and sign messages using RainbowKit.
--Privacy with Traceability: Pseudo-anonymous IDs ensure user privacy and are further obfuscate the author.  However, according to Oasis, there is a backdoor to verify content on some level.  
+-Privacy with Traceability: Pseudo-anonymous IDs ensure user privacy and are further obfuscated by storing them in confedential contracts.  However, according to Oasis, there is a backdoor to verify content on some level. In the future we will include pseudo-files and pseudo-address injections on-chain for enhanced security.  
 
 
 
