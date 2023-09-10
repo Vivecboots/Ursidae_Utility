@@ -77,9 +77,9 @@ Click on the Sign message button to sign a custom message using your Ethereum wa
 ## Testnet
 
 - RPC HTTP endpoint: 
-   ```http
-   https://testnet.sapphire.oasis.dev
-   ```
+```http
+https://testnet.sapphire.oasis.dev
+```
 - RPC WebSockets endpoint: 
 ```http
 wss://testnet.sapphire.oasis.dev/ws
@@ -104,7 +104,7 @@ https://testnet.explorer.sapphire.oasis.dev
 #### Upload Endpoint
 
 ```http
-  /api/upload
+/api/upload
 ```
 
 | Parameter | Type     | Description                |
@@ -114,15 +114,14 @@ https://testnet.explorer.sapphire.oasis.dev
 #### Retrieve Endpoint
 
 ```http
-  /api/retrieve
+/api/retrieve
 ```
 
 | Parameter | Type     | Description                       |
 | :-------- | :------- | :-------------------------------- |
 | `id`      | `string` | **Required**. File's CID |
 
-Feature not yet supported. Files can be retrieved directly from web3.storage or with API call.  
-Additional functionality to be added soon which will allow the product to serve dapps exclusively in the backend.  
+Feature not yet supported. Files can be retrieved directly from web3.storage or with API call. Sign up for web3.storage and provide API key in .env file.  Additional functionality to be added soon which will allow the product to serve dapps exclusively in the backend.  
 
 
 ## Contributing
@@ -131,6 +130,10 @@ Contributions are always welcome!
 
 If you'd like to contribute to this project, please create a pull request with your proposed changes.
 
+## Todo:  
+- Socks5 integration
+- pseudo pseudo-address and document stuffing
+- Deployment to Akash or Fleek.xyz when it arrives to decentralize
 
 
 
