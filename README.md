@@ -4,7 +4,7 @@
 
 
 # Private Web3 Storage with (EVM) Sapphire Oasis Paratime Chain 🌐🔗
-This project provides a secure and efficient way to upload files to IPFS using Web3.Storage, while also integrating with the Sapphire Oasis EVM Chain for enhanced functionalities and increased security.
+This project provides a secure and efficient way to upload files to IPFS using Web3.Storage, while also integrating with the Sapphire Oasis EVM Chain for enhanced functionalities and increased security. By way of a contract with hidden-state contracts, the project provides for more complex functionality that can be used for dapps and defi, amongst other things.  
 
 ## Features 🌟
 
@@ -72,9 +72,26 @@ Click on the Connect button to connect your Ethereum wallet.
 -Click on the Retrieve Content button to fetch and decrypt the file.
 
 - Sign Message:
-Click on the Sign message button to sign a custom message using your Ethereum wallet.
+Click on the Sign message button to sign a custom message using your Ethereum wallet (for testing purposes).
 
+## Testnet
 
+- RPC HTTP endpoint: 
+   ```http
+   https://testnet.sapphire.oasis.dev
+   ```
+- RPC WebSockets endpoint: wss://testnet.sapphire.oasis.dev/ws
+- Chain ID:
+
+  ```http
+   Hex: 0x5aff
+   ```
+   
+  ```http
+   Decimal: 23295
+   ```
+
+- Block explorer: https://testnet.explorer.sapphire.oasis.dev
 
 ## API Documentation:
 
@@ -98,7 +115,7 @@ Click on the Sign message button to sign a custom message using your Ethereum wa
 | :-------- | :------- | :-------------------------------- |
 | `id`      | `string` | **Required**. File's CID |
 
-
+Feature not yet supported. Files can be retrieved directly from web3.storage or with API call.  
 Additional functionality to be added soon which will allow the product to serve dapps exclusively in the backend.  
 
 
