@@ -36,7 +36,7 @@ npm install
 
 Environment Variables:
 
-Create a .env.local file in the root directory and set up your environment variables. (I will soon be removing NEXT_PUBLIC_, still under construction... )
+Create a .env.local file in the root directory and set up your environment variables. (I will soon be removing NEXT_PUBLIC_, still under construction... )  NEXT_PUBLIC_SECRET_KEY= [Can be anything you choose]
 
 
 ```bash
@@ -80,18 +80,24 @@ Click on the Sign message button to sign a custom message using your Ethereum wa
    ```http
    https://testnet.sapphire.oasis.dev
    ```
-- RPC WebSockets endpoint: wss://testnet.sapphire.oasis.dev/ws
+- RPC WebSockets endpoint: 
+```http
+wss://testnet.sapphire.oasis.dev/ws
+```
 - Chain ID:
 
   ```http
    Hex: 0x5aff
    ```
-   
+
   ```http
    Decimal: 23295
    ```
 
-- Block explorer: https://testnet.explorer.sapphire.oasis.dev
+- Block explorer: 
+```http
+https://testnet.explorer.sapphire.oasis.dev
+```
 
 ## API Documentation:
 
