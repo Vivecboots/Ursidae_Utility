@@ -134,6 +134,7 @@ If you'd like to contribute to this project, please create a pull request with y
 - Socks5 integration
 - pseudo pseudo-address and document stuffing
 - Deployment to Akash or Fleek.xyz when it arrives to decentralize
+- tor
 
 
 
