@@ -4,7 +4,7 @@
 
 
 # Private Web3 Storage with (EVM) Sapphire Oasis Paratime Chain 🌐🔗
-This project provides a secure and efficient way to upload files to IPFS using Web3.Storage, while also integrating with the Sapphire Oasis EVM Chain for enhanced functionalities and increased security. By way of a contract with hidden-state contracts, the project provides for more complex functionality that can be used for dapps and defi, amongst other things.  
+This project provides a secure and efficient way to upload files to IPFS using Web3.Storage, while also integrating with the Sapphire Oasis EVM Chain for enhanced functionalities and increased security. By way of a contract with hidden-states, the project provides for more complex functionality that can be used for dapps and defi, amongst other things.  
 
 ## Features 🌟
 
