@@ -131,10 +131,10 @@ Contributions are always welcome!
 If you'd like to contribute to this project, please create a pull request with your proposed changes.
 
 ## Todo:  
-- Socks5 integration
+- Socks5 integration/ tor for the host website integration
 - pseudo pseudo-address and document stuffing
 - Deployment to Akash or Fleek.xyz when it arrives to decentralize
-- tor
+
 
 
 
