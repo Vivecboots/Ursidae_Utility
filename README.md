@@ -13,12 +13,9 @@ This project provides a secure and efficient way to upload files to IPFS using W
 - File Retrieval: Retrieve files from IPFS and decrypt them to access the original content.
 - Sapphire Oasis Integration: Leverage the Sapphire Oasis EVM Chain for added features.
 -User Authentication: Authenticate users and sign messages using RainbowKit.
--Privacy with Traceability: Pseudo-anonymous IDs ensure user privacy and are further obfuscated by storing them in confedential contracts.  However, according to Oasis, there is a backdoor to verify content on some level. In the future we will include pseudo-files and pseudo-address injections on-chain for enhanced security.  
+-Privacy with Traceability: Pseudo-anonymous IDs ensure user privacy and are further obfuscated by storing them in confedential contracts.  However, according to Oasis, there is a backdoor to verify content on some level. In the future we will include pseudoanonymous-files and pseudo pseudoanonymous-address injections on-chain for enhanced security.  
 
 
-
-
-Privacy with Traceability: Pseudo-anonymous IDs ensure user privacy, but with cryptographic traceability for law enforcement via Oasis' zk-SNARKs protocol.
 ## Run Locally
 
 Clone the project
@@ -132,9 +129,12 @@ If you'd like to contribute to this project, please create a pull request with y
 
 ## Todo:  
 - Socks5 integration/ tor for the host website integration
-- pseudo pseudo-address and document stuffing
+- pseudo pseudoanonymous-address and document stuffing
 - Deployment to Akash or Fleek.xyz when it arrives to decentralize
 
+## Reflections
+
+!By way of Oasis protocol, it is possible for law enforcement to open the contract if given permission to do so by Oasis Protocol. This would give people the ability to see pseudoanonymous user addresses.  Of course, it is up to the user to remain confidential with proper use of their wallet and internet use.  Using tor and Socks5 can greatly reduce privacy concerns and is in consideration as well as full decentralization using Akash, Fleek.xyz.  HOWEVER, this appareant acheles heel is actually its strength as it isn't legally in a gray area because of this.  There is a pending lawsuit against one privacy provider right now, and they too had a backdoor function and follwed techniques of decentralization, which leads me to believe the lawsuit likely regard something else. Privacy will be fought for on both sides, those in power and those not in power will both want seek some modicum of privacy, and both sides will undoubtebly want the accountabiltiy that comes with open ledgers and publicly available transactions.  As of right now, anyone can make secret transactions and we do so on a daily basis in our own lives with money. It will take some time and fundamental shifts in thinking to tackle these new challenges. One last thought on those who may not see privacy as any kind of a concern.  If in your own life, anyone could look up all of your finacnial transactions, would you be okay with that, would you be secure, and would you be safe?  The first is a personal conclusion that you decide, the last two are undoubtedly no.  How do you balance these needs then? If you live in a city, you have a sense of anonymity. In a near future wher AR can instantly tell you everything about a stranger, how would society fundamentally change if a person was only measured by their past such as credit score, rather than what they are doing today to hopefully contribute to the world.  Does it create a feedback loop, where everything in society becomes amplified? We don't know yet, and there's no truly informed guesses. Thank you for checking out the repository.  If you are interested in any projects or ideas, please feel free to reach out to me. Thank you!
 
 
 
