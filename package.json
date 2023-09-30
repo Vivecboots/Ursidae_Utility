@@ -6,10 +6,12 @@
     "@oasisprotocol/sapphire-hardhat": "^2.16.1",
     "@oasisprotocol/sapphire-paratime": "^1.1.1",
     "@openzeppelin/contracts": "^4.9.3",
+    "truffle-flattener": "^1.6.0",
     "ts-node": "^10.9.1"
   },
   "dependencies": {
     "dotenv": "^16.3.1",
+    "ethers": "^6.7.1",
     "web3.storage": "^4.5.5"
   }
 }
